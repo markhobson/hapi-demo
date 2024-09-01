@@ -14,8 +14,8 @@
     mvn --projects :hapi-demo-server spring-boot:run
     ```
 
-1. Call the API:
+1. Run the client:
 
     ```bash
-    curl http://127.0.0.1:8080/
+    java -jar client/target/hapi-demo-client-0.1.0-SNAPSHOT.jar
     ```
